@@ -1,0 +1,27 @@
+{
+  "name": "ms-users",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.12.2",
+    "knex": "^0.21.12",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.29"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "typescript": "^3.3.3"
+  }
+}
